@@ -18,13 +18,13 @@ let nombre = prompt("Hola ¿Cuál es tu nombre? ");
 alert("Mucho gusto " + nombre + " soy Nancy y te doy la bienvenida a mi página web! ");
 const Pregunta1 = prompt("Tengo 3 nombres?");
 if(respuesta1.toLocaleLowerCase()===Pregunta1.toLocaleLowerCase()){
-    console.log("Genial! respuesta correcta! ✅")
-    alert("Genial! respuesta correcta! 🙁")
+    console.log("Genial! respuesta correcta!")
+    alert("Genial! respuesta correcta! ✅")
     Respuestacorrecta += 1;
 }
 else{
     console.log("Respuesta Incorrecta");
-    alert("Respuesta Incorrecta");
+    alert("Respuesta Incorrecta 🙁");
     Respuestaincorrecta += 1;
 
 }
