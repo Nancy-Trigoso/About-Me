@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # LABORATORIO-Proyecto-Clase02
 ## About-Me
 Esta es mi página Web sobre mi perfil con fines personales. En esta página podrás encontrar información sobre vida educativa y profesional y algunos datos curiosos.
@@ -22,4 +23,7 @@ Esta es mi página Web sobre mi perfil con fines personales. En esta página pod
 ### Reflexiones y Comentarios
 * Son herramientas nuevas y recursos nuevos que e utilizado en esta página, son muy iportantes para el desarrollo de este proyecto y me lleva una gran enseñanza.
 * Como comentario les diría que investiguen algún tema que no entiendan.
+=======
+
+>>>>>>> 4d3069720885958898ec1d9945f5bae399a22c7f
 
