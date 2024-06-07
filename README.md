@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # LABORATORIO-Proyecto-Clase02
 ## About-Me
 Esta es mi página Web sobre mi perfil con fines personales. En esta página podrás encontrar información sobre vida educativa y profesional y algunos datos curiosos.
