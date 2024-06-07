@@ -9,3 +9,6 @@ Esta es mi página Web sobre mi perfil con fines personales. En esta página pod
 ### Licencia 
 * Open-source MIT 
 ### Reflexiones y Comentarios
+* Son herramientas nuevas y recursos nuevos que e utilizado en esta página, son muy iportantes para el desarrollo de este proyecto y me lleva una gran enseñanza.
+* Como comentario les diría que investiguen algún tema que no entiendan.
+
