@@ -14,7 +14,11 @@ Esta es mi página Web sobre mi perfil con fines personales. En esta página pod
 ### Códigos:
 * Utilizamos Const, prompt, conlog.log, if, else, alert y logramos subir el archivo local al remoto con UCP.
 ### Puntuación de Accesibilidad de Lighthouse
+<<<<<<< HEAD
 <img alt="puntuacion" src="/img/About-me.png">
+=======
+<img alt="puntuacion" src="/img/Lighthouse.png">
+>>>>>>> a9d5eab14cadc6794cc4da3a9b4469002efcd74d
 
 ### Licencia 
 * Open-source MIT
@@ -24,3 +28,8 @@ Esta es mi página Web sobre mi perfil con fines personales. En esta página pod
 * Son herramientas nuevas y recursos nuevos que e utilizado en esta página, son muy iportantes para el desarrollo de este proyecto y me lleva una gran enseñanza.
 * Como comentario les diría que investiguen algún tema que no entiendan.
 * Como comentario les diría que investiguen algún tema que no entiendan.
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> a9d5eab14cadc6794cc4da3a9b4469002efcd74d
