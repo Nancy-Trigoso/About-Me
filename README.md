@@ -15,7 +15,7 @@ Esta es mi página Web sobre mi perfil con fines personales. En esta página pod
 * Utilizamos Const, prompt, conlog.log, if, else, alert y logramos subir el archivo local al remoto con UCP.
 ### Puntuación de Accesibilidad de Lighthouse
 
-<img alt="puntuacion" src="/img/About-me.png">
+<img alt="puntuacion" src="./img/About-me.png">
 
 ### Licencia 
 * Open-source MIT
