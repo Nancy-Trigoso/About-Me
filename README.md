@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> 84a220237f7aebecb325b88fdbd5d90078476da6
 # LABORATORIO-Proyecto-Clase02
 ## About-Me
 Esta es mi página Web sobre mi perfil con fines personales. En esta página podrás encontrar información sobre vida educativa y profesional y algunos datos curiosos.
@@ -19,18 +15,10 @@ Esta es mi página Web sobre mi perfil con fines personales. En esta página pod
 * Utilizamos Const, prompt, conlog.log, if, else, alert y logramos subir el archivo local al remoto con UCP.
 ### Puntuación de Accesibilidad de Lighthouse
 <img alt="puntuacion" src="/img/Lighthouse.png">
-<<<<<<< HEAD
-=======
-
->>>>>>> 84a220237f7aebecb325b88fdbd5d90078476da6
 ### Licencia 
 * Open-source MIT 
 ### Reflexiones y Comentarios
 * Son herramientas nuevas y recursos nuevos que e utilizado en esta página, son muy iportantes para el desarrollo de este proyecto y me lleva una gran enseñanza.
-<<<<<<< HEAD
 * Como comentario les diría que investiguen algún tema que no entiendan.
-=======
 * Como comentario les diría que investiguen algún tema que no entiendan.
 
-
->>>>>>> 84a220237f7aebecb325b88fdbd5d90078476da6
