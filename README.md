@@ -7,12 +7,12 @@ Esta es mi página Web sobre mi perfil con fines personales. En esta página pod
 * HTML
 * JSCRIPT
 * CSS
-*Git Bash
+* Git Bash
 ### Instrucciones para su instalación y uso
 * [Configuración del proyecto](https://entertechschool.github.io/code-201-guide/curriculum/class-02/project-setup)
 * [Instrucciones sobre el proyecto](https://canvas.instructure.com/courses/9592509/assignments/46879370)
 ### Códigos:
-* Utilizamos Const, prompt, conlog.log, if, else, alert y logramos subir el archivo local al remoto con UCP.
+* Utilizamos Const, prompt, conlog.log, if, else, alert y logramos subir el archivo local al remoto con ACP.
 ### Puntuación de Accesibilidad de Lighthouse
 
 <img alt="puntuacion" src="./img/About-me.png">
