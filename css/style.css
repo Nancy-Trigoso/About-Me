@@ -3,7 +3,7 @@ body{
     background-image: url("https://img.freepik.com/fotos-premium/fondo-grunge-espacio-texto-o-imagen_196038-10779.jpg");
 }
 
-header img{
+section img {
         margin: 20px;   
         display: block;
         height: 50;
@@ -40,14 +40,14 @@ p{
     word-spacing: 2px;
     line-height: 1;
 }
-.text-blue{
+.title-dos{
     color: rgb(51, 25, 201);
     font-weight: bold;
     text-align: center; 
 }
 
 .title{
-    color:blueviolet(51, 25, 201);
+    color:blueviolet;
     font-weight: bold; 
     text-align: center; 
 }
@@ -68,4 +68,22 @@ li{
     padding: 10px;
     border-radius: 22px;
     background-color: aquamarine;
+}
+
+ol li{
+    display: flex;
+    margin-bottom: 15px;
+    border-radius: 8px;
+   
+    background-color: rgb(233, 229, 217);
+    width:200px;
+    word-spacing: 2px;
+    line-height: 1;
+    
+}
+
+.lugares{
+    font-weight: bold;
+    line-height: 1.3;
+
 }
