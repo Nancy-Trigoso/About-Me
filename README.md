@@ -15,13 +15,13 @@ Esta es mi página Web sobre mi perfil con fines personales. En esta página pod
 * Utilizamos Const, prompt, conlog.log, if, else, alert y logramos subir el archivo local al remoto con ACP.
 ### Puntuación de Accesibilidad de Lighthouse
 
-<<<<<<< HEAD
+
 + Punción de la fecha: 06-06-2024
 
 <img alt="puntuacion" src="/img/About-me.png">
-=======
+
 <img alt="puntuacion" src="./img/About-me.png">
->>>>>>> bd189c98d4c84b37bc94dc73304345391177ecde
+
 
 + Punción de la fecha: 11-06-2024
 
