@@ -121,12 +121,12 @@ while (contadorDeIntentos <= numeroMaxIntentos) {
 
 alert("Adivine mis colores favoritos!! 🌈 ")
 
-let colores = ["rojo", "negro"];
+const colores = ["rojo", "negro"];
 let intentos = 6;
-
+alert("Recuerde que tiene 6 intentos!!")
 let adivinanza = prompt("Introduce un color:").toLowerCase();
 for (let i = 0; i < intentos; i++) {
-     if (adivinanza.toLowerCase === colores[i].toLowerCase) {
+     if (adivinanza.toLowerCase() === colores[i].toLowerCase()) {
         alert("¡Correcto! Adivinaste el color!! ✅" );
         Respuestacorrecta += 1;
         break;
