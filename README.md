@@ -20,7 +20,6 @@ Esta es mi página Web sobre mi perfil con fines personales. En esta página pod
 
 <img alt="puntuacion" src="/img/About-me.png">
 
-<img alt="puntuacion" src="./img/About-me.png">
 
 
 + Punción de la fecha: 11-06-2024
