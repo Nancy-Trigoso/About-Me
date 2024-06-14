@@ -89,7 +89,7 @@ console.log(numeroAAdivinar);
 let contadorDeIntentos = 1;
 
 while (contadorDeIntentos <= numeroMaxIntentos) {
-  const numeroPorUsuario = Number(prompt("Ingrese un número, recuerda que tienes 4 intentos!!"));
+  const numeroPorUsuario = Number(prompt("Ingrese un número, recuerda que tienes 4 intentos!! 👀"));
 
   if (numeroPorUsuario === numeroAAdivinar) {
     console.log("Felicidades!!! adivinaste el número " + numeroAAdivinar);
@@ -123,29 +123,41 @@ alert("Adivine mis colores favoritos!! 🌈 ")
 
 const colores = ["rojo", "negro"];
 let intentos = 6;
-alert("Recuerde que tiene 6 intentos!!")
-let adivinanza = prompt("Introduce un color:").toLowerCase();
-for (let i = 0; i < intentos; i++) {
-     if (adivinanza.toLowerCase() === colores[i].toLowerCase()) {
-        alert("¡Correcto! Adivinaste el color!! ✅" );
+let contadorintentos = 1;
+
+alert("¡Recuerde que tiene 6 intentos!! 👀");
+
+while (contadorintentos <= intentos) {
+    let adivinanza = prompt("Introduce un color:").toLowerCase();
+    let esCorrecto = false;
+
+    for (let i = 0; i < colores.length; i++) {
+        if (adivinanza === colores[i]) {
+            esCorrecto = true;
+            break;
+        }
+    }
+
+    if (esCorrecto) {
+        alert("¡Correcto! Adivinaste el color!! ✔️");
         Respuestacorrecta += 1;
         break;
-      } else {
-        adivinanza = prompt("Incorrecto! ❌ Intenta de nuevo.");
-        alert("Te quedan " + (intentos - i - 1) + " intentos.");  
-      }
-      if (i === 5){
-      alert("Lo siento, se te acabaron los intentos. Los color correcto eran " + colores + ". 🌈");
-      Respuestaincorrecta += 1;
-      }
+    } else if (contadorintentos === intentos) {
+        alert("Lo siento, se te acabaron los intentos. 😟 Los colores correctos eran " + colores.join(", ") + ". 🌈");
+        Respuestaincorrecta += 1;
+    } else {
+        alert("Incorrecto! ❌ Intenta de nuevo. Te quedan " + (intentos - contadorintentos) + " intentos. 👀");
+    }
+
+    contadorintentos++;
 }
    
 
 
-alert("Tu puntuación de respuestas es:");
+alert("Tu puntuación de respuestas es: ☑️");
 alert("Adivinaste " + Respuestacorrecta + " preguntas correctas. ✅ ");
 alert("Tienes "+ Respuestaincorrecta + " preguntas incorrectas. ❌ ");
 
 
-alert("Fue divertido jugar contigo " + nombre +  " hasta la próxima! 👋 ")
+alert("Fue divertido jugar contigo " + nombre +  " hasta la próxima! 👋 ");
 

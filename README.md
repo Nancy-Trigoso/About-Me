@@ -26,6 +26,23 @@ Esta es mi página Web sobre mi perfil con fines personales. En esta página pod
 
 <img alt="puntuacion" src="/img/puntuacion-dos.png">
 
+#  Pair Programming.
+
+
+**Primera parte**
+
++ Primera parte:
+
+Navigator: Nancy
+
+Driver: Eva
+
++ Segunda Parte:
+
+Navigator:  Eva
+
+Driver: Nancy
+
 ### Licencia 
 * Open-source MIT
   
