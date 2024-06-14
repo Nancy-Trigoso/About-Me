@@ -29,15 +29,13 @@ Esta es mi página Web sobre mi perfil con fines personales. En esta página pod
 #  Pair Programming.
 
 
-**Primera parte**
-
-+ Primera parte:
++ **Primera parte:**
 
 Navigator: Nancy
 
 Driver: Eva
 
-+ Segunda Parte:
++ **Segunda Parte:**
 
 Navigator:  Eva
 
