@@ -39,6 +39,11 @@ let contadorDeIntentos = 1;
 
 while (contadorDeIntentos <= numeroMaxIntentos) {
 
+<<<<<<< HEAD
+=======
+  const numeroPorUsuario = Number(prompt("Ingrese un número, recuerda que tienes 4 intentos!! 👀"));
+
+>>>>>>> 1d55ad69580d9a6bff03ec5a937e505b8e5dd463
   const numeroPorUsuario = Number(prompt('Ingrese un número, recuerda que tienes 4 intentos!!'));
 
 
@@ -124,7 +129,10 @@ while (contadorintentos <= intentos) {
   }
   contadorintentos++;
 
+<<<<<<< HEAD
 }
+=======
+>>>>>>> 1d55ad69580d9a6bff03ec5a937e505b8e5dd463
 }
    
 
@@ -139,3 +147,7 @@ alert("Fue divertido jugar contigo " + nombre +  " hasta la próxima! 👋 ");
 
 
 alert("Fue divertido jugar contigo " + usuario +  " hasta la próxima! 👋 ");
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1d55ad69580d9a6bff03ec5a937e505b8e5dd463
