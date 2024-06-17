@@ -38,11 +38,9 @@ console.log(numeroAAdivinar);
 let contadorDeIntentos = 1;
 
 while (contadorDeIntentos <= numeroMaxIntentos) {
-<<<<<<< HEAD
-  const numeroPorUsuario = Number(prompt("Ingrese un número, recuerda que tienes 4 intentos!! 👀"));
-=======
+
   const numeroPorUsuario = Number(prompt('Ingrese un número, recuerda que tienes 4 intentos!!'));
->>>>>>> 033dbe20286aef1189832d79536fddbc32c9a81d
+
 
   if (numeroPorUsuario === numeroAAdivinar) {
     console.log('Felicidades!!! adivinaste el número " + numeroAAdivinar');
@@ -76,7 +74,7 @@ alert("Adivine mis colores favoritos!! 🌈 ")
 const colores = ["rojo", "negro"];
 let intentos = 6;
 let contadorintentos = 1;
-<<<<<<< HEAD
+
 
 alert("¡Recuerde que tiene 6 intentos!! 👀");
 
@@ -103,7 +101,7 @@ while (contadorintentos <= intentos) {
     }
 
     contadorintentos++;
-=======
+
 alert("¡Recuerde que tiene 6 intentos!! 👀");
 while (contadorintentos <= intentos) {
   let adivinanza = prompt("Introduce un color:").toLowerCase();
@@ -125,7 +123,8 @@ while (contadorintentos <= intentos) {
     alert("Incorrecto! ❌ Intenta de nuevo. Te quedan " + (intentos - contadorintentos) + " intentos. 👀");
   }
   contadorintentos++;
->>>>>>> 033dbe20286aef1189832d79536fddbc32c9a81d
+
+}
 }
    
 
@@ -134,10 +133,9 @@ alert("Tu puntuación de respuestas es: ☑️");
 alert("Adivinaste " + Respuestacorrecta + " preguntas correctas. ✅ ");
 alert("Tienes "+ Respuestaincorrecta + " preguntas incorrectas. ❌ ");
 
-<<<<<<< HEAD
+
 
 alert("Fue divertido jugar contigo " + nombre +  " hasta la próxima! 👋 ");
 
-=======
+
 alert("Fue divertido jugar contigo " + usuario +  " hasta la próxima! 👋 ");
->>>>>>> 033dbe20286aef1189832d79536fddbc32c9a81d
