@@ -40,7 +40,6 @@ let contadorDeIntentos = 1;
 while (contadorDeIntentos <= numeroMaxIntentos) {
 
   const numeroPorUsuario = Number(prompt("Ingrese un número, recuerda que tienes 4 intentos!! 👀"));
-
   if (numeroPorUsuario === numeroAAdivinar) {
     console.log('Felicidades!!! adivinaste el número " + numeroAAdivinar');
     alert('Felicidades!!! adivinaste el número. 🥳 ');
@@ -98,14 +97,12 @@ while (contadorintentos <= intentos) {
     } else {
         alert("Incorrecto! ❌ Intenta de nuevo. Te quedan " + (intentos - contadorintentos) + " intentos. 👀");
     }
-
     contadorintentos++;
-
 }
-   
 
 
 alert("Tu puntuación de respuestas es: ☑️");
 alert("Adivinaste " + Respuestacorrecta + " preguntas correctas. ✅ ");
 alert("Tienes "+ Respuestaincorrecta + " preguntas incorrectas. ❌ ");
 alert("Fue divertido jugar contigo " + usuario +  " hasta la próxima! 👋 ");
+
