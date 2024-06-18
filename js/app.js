@@ -39,13 +39,7 @@ let contadorDeIntentos = 1;
 
 while (contadorDeIntentos <= numeroMaxIntentos) {
 
-<<<<<<< HEAD
-=======
   const numeroPorUsuario = Number(prompt("Ingrese un número, recuerda que tienes 4 intentos!! 👀"));
-
->>>>>>> 1d55ad69580d9a6bff03ec5a937e505b8e5dd463
-  const numeroPorUsuario = Number(prompt('Ingrese un número, recuerda que tienes 4 intentos!!'));
-
 
   if (numeroPorUsuario === numeroAAdivinar) {
     console.log('Felicidades!!! adivinaste el número " + numeroAAdivinar');
@@ -75,12 +69,12 @@ while (contadorDeIntentos <= numeroMaxIntentos) {
   }  
 }
 
-alert("Adivine mis colores favoritos!! 🌈 ")
 const colores = ["rojo", "negro"];
 let intentos = 6;
 let contadorintentos = 1;
 
 
+alert("Adivine mis colores favoritos!! 🌈 ");
 alert("¡Recuerde que tiene 6 intentos!! 👀");
 
 while (contadorintentos <= intentos) {
@@ -107,32 +101,6 @@ while (contadorintentos <= intentos) {
 
     contadorintentos++;
 
-alert("¡Recuerde que tiene 6 intentos!! 👀");
-while (contadorintentos <= intentos) {
-  let adivinanza = prompt("Introduce un color:").toLowerCase();
-  let esCorrecto = false;
-  for (let i = 0; i < colores.length; i++) {
-    if (adivinanza === colores[i]) {
-      esCorrecto = true;
-      break;
-    }
-  }
-  if (esCorrecto) {
-    alert("¡Correcto! Adivinaste el color!! ✔️");
-    Respuestacorrecta += 1;
-    break;
-  } else if (contadorintentos === intentos) {
-    alert("Lo siento, se te acabaron los intentos. 😟 Los colores correctos eran " + colores.join(", ") + ". 🌈");
-    Respuestaincorrecta += 1;
-  } else {
-    alert("Incorrecto! ❌ Intenta de nuevo. Te quedan " + (intentos - contadorintentos) + " intentos. 👀");
-  }
-  contadorintentos++;
-
-<<<<<<< HEAD
-}
-=======
->>>>>>> 1d55ad69580d9a6bff03ec5a937e505b8e5dd463
 }
    
 
@@ -140,14 +108,4 @@ while (contadorintentos <= intentos) {
 alert("Tu puntuación de respuestas es: ☑️");
 alert("Adivinaste " + Respuestacorrecta + " preguntas correctas. ✅ ");
 alert("Tienes "+ Respuestaincorrecta + " preguntas incorrectas. ❌ ");
-
-
-
-alert("Fue divertido jugar contigo " + nombre +  " hasta la próxima! 👋 ");
-
-
 alert("Fue divertido jugar contigo " + usuario +  " hasta la próxima! 👋 ");
-<<<<<<< HEAD
-=======
-
->>>>>>> 1d55ad69580d9a6bff03ec5a937e505b8e5dd463
