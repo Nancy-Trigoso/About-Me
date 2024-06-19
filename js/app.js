@@ -10,11 +10,9 @@ function compararRespuesta(textoPreguntas){
   if (afirmacion.toLowerCase() === preguntas.toLowerCase()){
     alert('Genial! respuesta correcta! ✅');
     numeroAciertos ++; 
-    console.log(numeroAciertos);
     Respuestacorrecta +=1;
   }else{
     alert('Respuesta Incorrecta 🙁');
-    console.log('Respuesta Incorrecta 🙁');
     Respuestaincorrecta +=1;
   }
 }
@@ -34,14 +32,12 @@ for (let i=0; i<preguntas.length; i++){
 alert('Adivine el número de mi cumpleaños!!🎉🎉');
 const numeroMaxIntentos = 4;
 const numeroAAdivinar = 10;
-console.log(numeroAAdivinar);
 let contadorDeIntentos = 1;
 
 while (contadorDeIntentos <= numeroMaxIntentos) {
 
   const numeroPorUsuario = Number(prompt("Ingrese un número, recuerda que tienes 4 intentos!! 👀"));
   if (numeroPorUsuario === numeroAAdivinar) {
-    console.log('Felicidades!!! adivinaste el número " + numeroAAdivinar');
     alert('Felicidades!!! adivinaste el número. 🥳 ');
     Respuestacorrecta += 1;
     
@@ -49,17 +45,14 @@ while (contadorDeIntentos <= numeroMaxIntentos) {
   }else{
     contadorDeIntentos++;
     if (contadorDeIntentos === numeroMaxIntentos + 1){
-      console.log('Llegaste al número max de intentos 😟 mi cumpleaños es el 10 de Diciembre. 🎂 ' );
       alert('Llegaste al número máximo de intentos 😟  mi cumpleaños es el 10 de Diciembre. 🎂 ');
       Respuestaincorrecta += 1;
     } else{
       if (numeroPorUsuario > numeroAAdivinar){
-        console.log('El numero es muy alto,intenta con un numero menor. ➖ ');
         alert('El numero es muy alto, intenta con un numero menor. ➖ ');
        
       } else {
         if(numeroPorUsuario < numeroAAdivinar){
-          console.log('El numero es muy bajo,intenta con un numero mayor.  ➕ ');
           alert('El numero es muy bajo, intenta con un numero mayor.  ➕ ');
        
         }

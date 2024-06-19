@@ -26,6 +26,10 @@ Esta es mi página Web sobre mi perfil con fines personales. En esta página pod
 
 <img alt="puntuacion" src="/img/puntuacion-dos.png">
 
++ Punción de la fecha: 19-06-2024
+
+<img alt="puntuacion" src="/img/puntuacion-3.png">
+
 #  Pair Programming.
 
 

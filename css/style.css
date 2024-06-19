@@ -3,7 +3,7 @@ body{
     background-image: url("https://img.freepik.com/fotos-premium/fondo-grunge-espacio-texto-o-imagen_196038-10779.jpg");
 }
 
-section img {
+div img {
         margin: 20px;   
         display: block;
         height: 50;
@@ -15,6 +15,7 @@ section img {
 .banner{
     border: solid;
 }
+
 
 h1,
 h2{
@@ -40,6 +41,7 @@ p{
     word-spacing: 2px;
     line-height: 1;
 }
+
 .title-dos{
     color: rgb(51, 25, 201);
     font-weight: bold;
@@ -56,13 +58,67 @@ p{
     margin-top: 20px;
 }
 
-ul {
+.educacion {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
     margin-bottom: 20px;
 }
 
+.educacion > li{
+    border: solid;
+    padding: 10px;
+    border-radius: 22px;
+}
+
+.experience-container {
+    margin-top: 20px;
+  }
+  
+  .work-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .work-title {
+    font-weight: bold;
+  }
+  
+  .work-company {
+    font-weight: 400;
+  }
+  
+  .work-date {
+    font-size: 13px;
+    color: blue;
+  }
+
+  .logros {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.logros > li{
+    border: solid;
+    padding: 10px;
+    border-radius: 22px;
+}
+ol li{
+    display: flex;
+    margin-bottom: 15px;
+    border-radius: 8px;
+   
+    background-color: rgb(233, 229, 217);
+    width: 240px;
+    word-spacing: 2px;
+    line-height: 1.5;
+    
+    
+}
 li{
     border: solid;
     padding: 10px;
@@ -70,20 +126,35 @@ li{
     background-color: aquamarine;
 }
 
-ol li{
-    display: flex;
-    margin-bottom: 15px;
-    border-radius: 8px;
-   
-    background-color: rgb(233, 229, 217);
-    width:200px;
-    word-spacing: 2px;
-    line-height: 1;
-    
-}
-
 .top{
     font-weight: bold;
     line-height: 1.3;
+    word-spacing: 2;
 
+}
+
+.top > li{
+    border: solid;
+    padding: 10px;
+    border-radius: 22px;
+}
+footer:hover{
+    background-color: green;
+    }
+footer{
+   color: whitesmoke;
+    width: 600px;
+    margin: 0px auto;
+    text-align: center;
+}
+    footer ul{
+    text-align: center;
+}
+footer ul li{
+    display: inline-block;
+    padding: 10px;
+}
+footer ul li a{
+    color: black;
+    text-decoration: none;
 }

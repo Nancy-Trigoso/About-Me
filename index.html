@@ -8,24 +8,23 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+  
     <main>
         <section class="banner">
-        
             <h1 class="title">Nancy Trigoso Vega</h1> 
             <h2 class="title-dos">Administradora de Redes</h2>
-        
         </section>
 
-        <section class="resumen">
+        <div class="resumen">
             <h3>Resumen</h3>
             <p>
             Hola! Soy Nancy Trigso, Técnica en Administración de Redes, con experiencia en varias
             áreas comunicativas, pero actualmente me dedico a la preparación de comida rápida. Estoy estudiando
             en Enter Tech School Desarrollo de Software por que quiero llegar a ser una developer.
-            </p>
+            </p> 
             <img src="./img/nancy.jpg"alt="Nancy" width="100" height="200">
 
-        </section>
+        </div>
     
 
         </div>
@@ -35,37 +34,65 @@
        
 
         <h3>Educación</h3>
-        <ul>
+        <ul class="educacion">
             <li>I.E 1221 María Parado de Bellido</li>
             <li>I.E.S.P "Ramiro Prialé Prialé"</li>
             <li>Centro de Idiomas Ciune</li>
             <li>Instituto SISE</li>
         </ul>
-        <h3>Experiencia Laboral</h3>
-        <section>
-            <div>
-                <h4>PIZZERIA SABOR PIZZA S.A.C</h4>
-                <p >Marzo 2022 – Presente</p>
-                <p>Preparación de comida rápida, tacos, hambuerguesas,etc.</p>
+        <section class="experience-container" id="experiencia-laboral">
+        <h3 class="sub-title">Experiencia Laboral</h3>
+        <section class="experience-container">
+            <div class="work-container">
+                <div>
+                    <img
+                    src="./img/hospital.png"
+                    alt="Logo hospital"
+                    width="50"
+                    height="50"
+                  />
+                </div>
+                <div>
+                    <h4 class="work-company">HOSPITAL JOSE AUGURTO TELLO-CHOSICA</h6>
+                    <p class="work-date">Enero 2019 – Marzo 2019</p>
+                    <p class="work-title">Ayudante en el área de Estadística e informática.</p>
+                </div>
             </div>
-            <div>
-                <h4>HOSPITAL JOSE AUGURTO TELLO-CHOSICA</h4>
-                <p>Enero 2019 – Marzo 2019</p>
-                <p>Ayudante en el área de Estadística e informática.</p>
+            <div class="work-container">
+                <div>
+                    <img
+                    src="./img/hielo-rosita.png"
+                    alt="Logo hielo-rosita"
+                    width="50"
+                    height="50"
+                  />
+                </div>
+                <div>
+                    <h4 class="work-company">HIELOS ROSITA S.A.C</h6>
+                    <p class="work-date">Enero 2017 - Noviembre 2017</p>
+                    <p class="work-title">Atención al cliente, registrar los datos correspondientes.</p>
+                </div>
             </div>
+                            
+            <div class="work-container">
+                <div>
+                  <img
+                    src="./img/piñateria-kike.jpg"
+                    width="50"
+                    height="50"
+                    alt="logo piñateria-kike"
+                  />
+                </div>
             <div>
-                <h4>HIELOS ROSITA S.A.C</h4>
-                <p>Enero 2017 - Noviembre 2017</p>
-                <p>Atención al cliente, registrar los datos correspondientes.</p>
+                <h4 class="work-company">PIÑATERIA KIKE´S S.A.C</h6>
+                <p class="work-date">Enero 2016 – Julio 2016</p>
+                <p class="work-title">Recepcionar y atender a los clientes, registrar el ingreso correspondiente de dinero y la salida de productos.</p>
             </div>
-            <div>
-                <h4>PIÑATERIA KIKE´S S.A.C</h4>
-                <p>Enero 2016 – Julio 2016</p>
-                <p>Recepcionar y atender a los clientes, registrar el ingreso correspondiente de dinero y la salida de productos.</p>
-            </div>
+            </div>       
         </section>
-        <h3 class="logros">Logros</h3>
-        <ul>
+    </main>
+        <h3>Logros</h3>
+        <ul class="logros">
             <li>Terminar el Code-201</li>
             <li>Graduarme como Developer</li>
             <li>Aprender hablar Inglés con fluidez</li>
@@ -74,7 +101,7 @@
             
             <div>
                 <h3 class=" top">Top10: Lugares para visitar💚</h>
-                <ol>
+                <ol >
                     <li>Gran Muralla China</li>
                     <li>Chichen Itzá, México</li>
                     <li>Petra, Jordania</li>
@@ -87,7 +114,15 @@
                     <li>The Blue Lagoon, Islandia</li>
                 </ol>
             </div>
-    </main>
+        <footer>
+        <h3>Redes sociales📱</h3>
+        <ul>
+            <li><img src="./img/face--logo.png"alt="Logo facebook" width="15" height="15"><a href="https://www.facebook.com/Trigoso1012/?locale=es_LA" target="_blank" >Facebook</a></li>
+            
+            <li><img src="./img/instagram_logo.webp"alt="Logo instagram" width="15" height="15"><a href="https://www.instagram.com/nancy_trigoso/" target="_blank">Instagram</a></li>
+            <li><img src="./img/linke.png" alt="Logo linkedin" width="15" height="15"><a href="https://www.linkedin.com/in/nancy-trigoso/" target="_blank">Linkedin</a></li>
+        </ul>
+    </footer>
     
      <script src="./js/app.js"></script>
 </body>
